@@ -31,7 +31,7 @@ section.retangles {
 }
 
 section.retangles > div.retangle {
-  max-width: 8rem;
+  max-width: 12rem;
   max-height: 18rem;
   width: 100%;
   height: 100%;
