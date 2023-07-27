@@ -1,0 +1,120 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+}
+
+#places {
+  border: 1px solid rgb(117 117 117);
+  border-radius: 1rem;
+  padding: 0.4rem;
+  max-height: 2rem;
+  color: 1px solid rgb(117 117 117);
+  background-color: #c1c1c1;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+section.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+
+  background-color: #202124;
+}
+
+form#form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+section.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  height: 100vh;
+}
+
+input {
+  border: 1px solid rgb(117 117 117);
+  border-radius: 1rem;
+  padding: 0.4rem 0.8rem;
+  max-height: 2rem;
+  width: 16rem;
+}
+input.error::placeholder {
+  color: red;
+  transition: ease-in 0.5s;
+}
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+}
+
+.error {
+  border: 1px solid red;
+  transition: ease-in 0.5s;
+}
+
+label {
+  text-align: left;
+  color: white;
+  margin-left: 0.7rem;
+  width: 100%;
+  border: none;
+}
+
+button {
+  background-color: #c1c1c1;
+  border: none;
+  border-radius: 1rem;
+  max-height: 2rem;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  width: 7rem;
+  align-self: center;
+}
+
+button:hover {
+  background-color: #b3b5b6;
+}
+
+section.weather div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    max-width: 90vw;
+    width: 100%;
+    height: 80%;
+    padding: 2rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.2);
+    background-color: #c1c1c1;
+}
+
+.title {
+  color: white;
+}
