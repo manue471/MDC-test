@@ -14,7 +14,7 @@ body {
   padding: 0.4rem;
   max-height: 2rem;
   color: 1px solid rgb(117 117 117);
-  background-color: #c1c1c1;
+  background-color: white;
 }
 
 .hidden {
@@ -64,7 +64,7 @@ label {
 }
 
 button {
-  background-color: #c1c1c1;
+  background-color: #dc5454;
   border: none;
   border-radius: 1rem;
   max-height: 2rem;
