@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const email = document.getElementById('email')
   email.addEventListener('change', function validateEmail(input) {
 
-    var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    var validRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;;
 
     if (email.value.match(validRegex)) {
       document.getElementById('email').classList.remove('error');
